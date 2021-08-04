@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="domLabVending.css" />
+    <title>Document</title>
+</head>
+<body>
+<div class = "container">
+    <h1>Vending Machine</h1>
+    <button id = "lime" createButton()>Lime Cola  $2.00</button>
+    <button id = "salted" createButton()>Salted Peanuts  $3.00</button>
+    <button id = "chocolate" createButton()>Chocolate Bar  $4.00</button>
+    <button id = "fruit" createButton()>Fruit Gummies  $6.00</button>
+    <input id = "total" createTotal()></input>
+</div>
+<div class = "selected">
+    <select name="list" id="list" accesskey="target" onchange="showOptions(this); buttonClicked(this)">
+    </select>
+</div>
+    <script src="./domLabVending.js"></script>
+</body>
+</html>

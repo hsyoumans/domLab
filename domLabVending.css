@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: wrap;
+    margin: auto;
+}
+
+h3 {
+    margin: 0px 15px;
+}
+
+.container {
+	width: 270px;
+	height: 280px;
+    margin: 150px auto;
+	border: 2px solid blue;
+    border-radius: 5px;
+	padding: 20px 50px 50px;
+	background-color: #F0F0F0;
+    box-shadow: 0px 5px 5px #5f5f5f, 5px 5px 10px #5f5f5f;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 5px 5px #5f5f5f, 5px 5px 10px #5f5f5f;
+    width: 120px;
+    height: 75px;
+}
+
+.lime {
+    
+/*    width: 200px;*/
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.salted {
+    float: right;
+}
+
+.chocolate {
+	left: 110px;
+	top: 200px;
+	padding: 10px;
+}
+
+.fruit {
+    color: white;
+	float: right;
+	padding: 10px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+input {
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    width: 250px;
+    height: 30px;
+    margin: 15px 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #5f5f5f, 5px 5px 10px #5f5f5f;
+}
+
+

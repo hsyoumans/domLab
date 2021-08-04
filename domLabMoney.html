@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="domLabMoney.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Make Money!</h1>
+        <label>How many?</label>
+        <input type="text" id="cents" />
+        <p></p>
+        <label>Which coin?</label>
+        <div class="dropdown">
+            <button onclick="selectCoin()" class="coinSelection">Pick a coin</button>
+            <div id="selection" class="dropdown-content">
+                <a href="#" class="coin">Quarter</a>
+                <a href="#" class="coin">Dime</a>
+                <a href="#" class="coin">Nickel</a>
+                <a href="#" class="coin">Pennie</a>
+            </div>
+        </div>
+        <p class="coins" id="quarter">Q</p>
+        <p class="coins" id="dime">D</p>
+        <p class="coins" id="nickel">N</p>
+        <p class="coins" id="pennie">P</p>    
+    </div>
+    
+</html>
