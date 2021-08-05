@@ -8,17 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-<div class = "container">
+<div id="container">
     <h1>Vending Machine</h1>
-    <button id = "lime" createButton()>Lime Cola  $2.00</button>
-    <button id = "salted" createButton()>Salted Peanuts  $3.00</button>
-    <button id = "chocolate" createButton()>Chocolate Bar  $4.00</button>
-    <button id = "fruit" createButton()>Fruit Gummies  $6.00</button>
-    <input id = "total" createTotal()></input>
-</div>
-<div class = "selected">
-    <select name="list" id="list" accesskey="target" onchange="showOptions(this); buttonClicked(this)">
-    </select>
+    <button data-price="2.00" id = "lime">Lime Cola  $2.00</button>
+    <button data-price="3.00" id = "salted">Salted Peanuts  $3.00</button>
+    <button data-price="4.00" id = "chocolate">Chocolate Bar  $4.00</button>
+    <button data-price="6.00" id = "fruit">Fruit Gummies  $6.00</button>
+    <p id = "total"></p>
+    <button id="reset" onclick="window.location.reload();">Reset</button>
+    
 </div>
     <script src="./domLabVending.js"></script>
 </body>
